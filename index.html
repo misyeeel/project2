@@ -3,9 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bohol</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg position-fixed top-0 start-50 translate-middle-x z-3 rounded-4 shadow-sm mt-3 px-5 py-2"
+        style="width: 80%; background: rgba(255, 255, 255, 0.08); backdrop-filter: blur(20px) saturate(180%);
+                -webkit-backdrop-filter: blur(20px) saturate(180%);">
     
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <a class="navbar-brand p-0 m-0" href="#home">
+                
+                <img src="assets/bohollogo.png" alt="Bohol Logo" width="40" class="rounded-circle">
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                    style="filter: invert(1);">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                    <li class="nav-item"><a class="nav-link text-white me-4" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white me-4" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white me-4" href="#sights">Sights</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#experiences">Experiences</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content text-center">
+            <h2 class="subtitle">Jewel of the Philippines</h2>
+        </div>
+    </section>
+
+    <!-- About Bohol -->
+    <section id="about" class="bg-black text-white py-5">
+        <div class="about-wrapper" style="max-width: 85%; margin: 0 auto;">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold mb-3">About Bohol</h2>
+                <div style="text-align: justify;">
+                    <p class="fs-5" style="text-align: justify; line-height: 1.8; color: #e9e9e9;">
+                        Located at the heart of Central Visayas, <b>Bohol</b> stands as the 10th largest island 
+                        in the Philippines, boasting a total land area approximately <b>4,117 square kilometers</b>. 
+                        The island main main oval-shaped island is surrounded by <b>72 smaller islets</b>, each contributing 
+                        to the province’s stunning landscape of tropical beauty, lush greenery, and pristine coastlines. 
+                        Its geographical position makes it a central hub for travel within the Visayas region, easily accessible 
+                        from neighboring islands like Cebu and Siquijor.
+                    </p>
+                    <p class="fs-5" style="text-align: justify; line-height: 1.8; color: #e9e9e9;">
+                        Bohol is often celebrated as a destination that captures the perfect balance of <b>nature, culture, and adventure.</b>
+                        the province is best known for its world-famous <b>Chocolate Hills, white sand beaches,</b> and <b>crystal-clear waters</b>, 
+                        Bohol has become one of the country’s most beloved travel destinations. 
+                        The island’s most popular beach resorts can be found in Panglao Island on the southwest coast and 
+                        Anda on the eastern side—both offering a mix of adventure, tranquility, and stunning marine life.
+                    </p>
+                    <p class="fs-5" style="text-align: justify; line-height: 1.8; color: #e9e9e9;">
+                        Bohol is made up of one city and 47 municipalities, each rich in culture, heritage, and natural wonders. 
+                        Its capital, <b>Tagbilaran City</b>, known as the <em>“City of Friendship”</em>, serves as the gateway to the province. 
+                        Situated on the southwestern coast, Tagbilaran spans 32.70 square kilometers with a 13-kilometer coastline, 
+                        bordered by Cortes, Corella, and Baclayon. It lies about 630 kilometers southeast of Manila 
+                        and 72 kilometers south of Cebu City.
+                    </p>
+                    <p class="fs-5" style="text-align: justify; line-height: 1.8; color: #e9e9e9;">
+                        The city’s name, Tagbilaran, is said to come from the phrase <b>“Tagu Bilaan”</b>—meaning <em>“to hide from Bilaan”</em>,
+                        a reference to early residents seeking refuge from marauders in ancient times.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-md-12">
+                    <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow">
+                        <video autoplay loop muted playsinline class="w-100 rounded-4">
+                            <source src="assets/boholVid.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SIGHTS SECTION -->
+    <section id="sights" class="py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-3">Sights</h2>
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="card sight-card bg-dark text-white border-0 rounded-4 overflow-hidden position-relative">
+                        <div class="ratio ratio-4x3">
+                            <img src="assets/chocolateHills.jpg" class="card-img-top object-fit-cover" alt="Chocolate Hills">
+                        </div>
+                        <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                            <h5 class="card-title bg-dark bg-opacity-50 py-2 px-3 rounded">Chocolate Hills</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="card sight-card bg-dark text-white border-0 rounded-4 overflow-hidden position-relative">
+                        <div class="ratio ratio-4x3">
+                            <img src="assets/balicasagIsland.jpg" class="card-img-top object-fit-cover" alt="Balicasag Island">
+                        </div>
+                        <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                            <h5 class="card-title bg-dark bg-opacity-50 py-2 px-3 rounded">Balicasag Island</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="card sight-card bg-dark text-white border-0 rounded-4 overflow-hidden position-relative">
+                        <div class="ratio ratio-4x3">
+                            <img src="assets/philippineTarsier.jpg" class="card-img-top object-fit-cover" alt="Philippine Tarsier Sanctuary">
+                        </div>
+                        <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                            <h5 class="card-title bg-dark bg-opacity-50 py-2 px-3 rounded">Philippine Tarsier Sanctuary</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences -->
+    <section id="experiences" class="bg-black text-white py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-3">Experiences</h2>
+            <div class="row g-4 justify-content-center">
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card border-0 rounded-4 shadow-sm h-100 bg-light text-dark exp-card">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Swim with turtles</h5>
+                        <p class="small text-muted">
+                        Discover hidden beaches, turquoise waters, and unique island charm.
+                        </p>
+                        <div class="ratio ratio-4x3 rounded-4 overflow-hidden">
+                            <img src="assets/turtles.jpg" class="w-100 h-100 object-fit-cover" alt="Swim with turtles">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card border-0 rounded-4 shadow-sm h-100 bg-light text-dark exp-card">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Watch the sunset</h5>
+                        <p class="small text-muted">
+                        Watch vibrant hues paint sky and sea at twilight in perfect harmony.
+                        </p>
+                        <div class="ratio ratio-4x3 rounded-4 overflow-hidden">
+                            <img src="assets/sunset.jpg" class="w-100 h-100 object-fit-cover" alt="Watch the sunset">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card border-0 rounded-4 shadow-sm h-100 bg-light text-dark exp-card">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Ride an ATV</h5>
+                        <p class="small text-muted">
+                        Ride around unique geological wonders on an exciting off-road adventure.
+                        </p>
+                        <div class="ratio ratio-4x3 rounded-4 overflow-hidden">
+                            <img src="assets/atv.jpg" class="w-100 h-100 object-fit-cover" alt="Ride an ATV">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="end-content" class="position-relative text-center text-white">
+        <img src="assets/end.jpg" alt="Loboc River Cruise" class="w-100 end-image">
+            <div class="end-overlay d-flex flex-column justify-content-end align-items-center text-center">
+                <div class="footer-text py-4 px-3">
+                    <p class="mb-0 small">
+                        © 2025 Michelle Olfindo — Project 2. All rights reserved.<br>
+                        Some images and media used are sourced from the internet and belong to their respective owners.
+                        This website is for educational and non-commercial purposes only.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
